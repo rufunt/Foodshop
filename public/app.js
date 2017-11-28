@@ -1,4 +1,11 @@
 function something()
 	{
-		alert('наш телефон 09566666777');
+        var x = window.localStorage.getItem('aa');
+
+        x = x * 1 + 1;
+
+        window.localStorage.setItem('aa', x);
+
+		alert(x);
+
 	}
