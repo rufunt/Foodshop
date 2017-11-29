@@ -10,10 +10,7 @@ function something()
 
 	}
 
-function add_to_cart()
+function add_to_cart(id)
 {
-    
-
-	alert('add_to_cart');
-
+    alert('Вы добавили пиццу с id ' + id);
 }
